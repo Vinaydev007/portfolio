@@ -1,0 +1,10 @@
+.Form{
+    width:100vw;
+    height:200px;
+    background-color: rgb(126, 78, 78);
+    align-content: center;
+}
+input,button{
+    display: flex;
+    margin-left: 50%;
+}
