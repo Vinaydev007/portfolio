@@ -13,13 +13,13 @@ function App() {
   const [submitval,setSubmitval]=useState("")
   return (
     <div>
-          {/* <Navbar/>
+          <Navbar/>
           <Home/>
           <AboutMe/>
            <Skills/>
            <Projects/>
-           <ContactMe/> */}
-           <Count/>
+           <ContactMe/>
+           {/* <Count/> */}
     </div>
   );
 }
