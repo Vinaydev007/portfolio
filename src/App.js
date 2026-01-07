@@ -1,21 +1,25 @@
 import React from "react";
-import AdminRegister from "./Components/hospital/admin";
-import DoctorRegister from "./Components/hospital/doctor";
-import PatientRegister from "./Components/hospital/user";
-import Uncontrolled from "./Components/uncontrolled"
 import {useState} from "react"
-import Form from "./Components/Form"
+import Navbar from "./Header/Navbar/navbar"
+import Home from "./Components/Home"
+import AboutMe from "./Components/Aboutme"
+import Skills from "./Components/Skills";
+import Projects from "./Components/Project";
+import ContactMe from "./Components/Contactme";
+import Count from "./Components/Count"
+
 
 function App() {
   const [submitval,setSubmitval]=useState("")
   return (
     <div>
-      <h1>Hospital System</h1>
-      {/* <AdminRegister /> */}
-      {/* <DoctorRegister /> */}
-      {/* <PatientRegister /> */}
-      <Uncontrolled/>
-      <Form/>
+          {/* <Navbar/>
+          <Home/>
+          <AboutMe/>
+           <Skills/>
+           <Projects/>
+           <ContactMe/> */}
+           <Count/>
     </div>
   );
 }
